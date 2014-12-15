@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+I have a repository? I presume I would do this with files where it is important to track version control.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Well its obviously half way between them.  I suppose it offers the ability to make decisions about how to group things and
+provide a way to put them in a place in a group until you can decide what to do?  But if you are not sure enough on what to
+do and what to commit then why take action yet.  To me the whole idea of a commit is you are either ready to make a decision
+or you are not.  So seems to me like the staging area is more like a redundant place for the indecisive.  Not sure I see this
+as useful.
