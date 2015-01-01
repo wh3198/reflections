@@ -1,9 +1,42 @@
 What happens when you initialize a repository? Why do you need to do it?
 I have a repository? I presume I would do this with files where it is important to track version control.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-Well its obviously half way between them.  I suppose it offers the ability to make decisions about how to group things and
-provide a way to put them in a place in a group until you can decide what to do?  But if you are not sure enough on what to
-do and what to commit then why take action yet.  To me the whole idea of a commit is you are either ready to make a decision
-or you are not.  So seems to me like the staging area is more like a redundant place for the indecisive.  Not sure I see this
-as useful.
+How is the staging area different from the working directory and the repository? What value do you think it
+offers? Well its obviously half way between them.  I suppose it offers the ability to make decisions about
+how to group things and provide a way to put them in a place in a group until you can decide what to do?
+But if you are not sure enough on what to do and what to commit then why take action yet?  To me the whole
+idea of a commit is you are either ready to make a decision or you are not.  So seems to me like the staging
+area is more like a redundant place for the indecisive.  Not sure I see this as useful yet.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Use git diff to compare working directory to staging area.  Then use --staged to compare staging area to
+most recent commit. Then use git diff filename1 filename2 to compare two most recent commits.  The idea is
+to use this to find errors differences and insure accuracy. I get all of that but again this seems extremely
+redundant to me. You are either ready to commit or not.
+
+What are some situations when branches would be helpful in keeping your history organized? How would
+branches help?
+I can see how branches may be helpful in experimenting, but since I can't get Git to work
+properly at this point I'm extremely frustrated right now with Git and the course. While I really appreciate
+individuals taking the time out on Piazza to offer opinions on possible solutions none of the suggestions
+are working for the systems issues I have and as a result I have some doubts about the value of the format
+Piazza offers for getting operational systems problems resolved. Seems like every exercise is causing delays
+of days and in at least one case weeks in completing the coursework. It's extremely frustrating to the point
+of my almost quitting the class several times now.  There needs to be a better way to resolve systems operational
+problems.  I hope this feedback is useful to the course administrators in improving the course for future
+students.
+
+How do the diagrams help you visualize the branch structure?
+This seems like a question with an obvious answer.  It gives you visual view of the operational structre.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic will identify conflicts but it doesn't resolve them so you have to do manual work anyway. At least
+the automated method points out the conflicts.  However, I can forsee many situations where there are
+conflicts with dependencies.  As a result not sure I see the value in merging. Seems like it has potential to
+cause as many problems as it resolves and slow overall development down. I see it as a sort of too many
+cooks in the kitchen scenario.  Seems like frequent commit and discussion would eliminate the need
+for merges or would be a better method to minimize the potential for problems / conflicts.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All commits from both branches are combined in chronological order. Graphical representation helps to
+visualize what was combined into what.

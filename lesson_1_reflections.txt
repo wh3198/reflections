@@ -1,16 +1,24 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
-It narrowed down the search to just those lines that were different.  However, I could see this as being problematic. Just because a line is different doesn't mean it's wrong. This means if I change multiple lines and some are correct and one or more is wrong I'll still have to look through a ton of stuff to figure out where and error is, so I have to ask is this really useful at all?
+It narrowed down the search to just those lines that were different.  However, I could see this as being
+problematic. Just because a line is different doesn't mean it's wrong. This means if I change multiple lines
+and some are correct and one or more is wrong I'll still have to look through a ton of stuff to figure out
+where and error is, so I have to ask is this really useful?
 
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+How could having easy access to the entire history of a file make you a more efficient programmer in the
+long term?
 Not sure it would. I see it being problematic having too many versions of the same thing.
 
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs?
-If you don't do it often enough the number of changes is too large to track when you do a comparison to find errors.  If you do it too often there end up being so
-many versions that your history becomes too cluttered.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google docs?
+If you don't do it often enough the number of changes is too large to track when you do a comparison to find
+errors.  If you do it too often there end up being so many versions that your history becomes too cluttered.
 
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while
+others, like Google Docs, treat each file separately?
 Different developers have different preferences.
 
 How can you use the commands git log and git diff to view the history of files?
-Git log to display the commits, but remember to scroll using the enter key not the down arrow to see all the commits.
-Then choose the commits you want to compare and use Gig Diff.
+Git log is used to display the commits, but remember to scroll using the enter key not the down arrow to
+see all the commits. Then choose the commits you want to compare and use Gig Diff. I find Git to be
+counterintuitive and cryptic in many ways.  I could see room for big improvements in the way in which this
+system operates.
