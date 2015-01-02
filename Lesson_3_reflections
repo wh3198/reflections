@@ -1,0 +1,12 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When collaborating with others to use Git Hub as a File Share and update type of application.
+Perhaps also as a backup to material on my own computer for recovery and other backup purposes.
+
+Why might you want to always pull changes manually rather than having Git automatically stay
+up-to-date with your remote repository?
+I'm not sure there is a direct answer to this question other than it depends on your preference.
+If I'm using Git Hub as a backup copy for my original I'd want it to be automatic.  However, if I
+did this I would have to make sure that when I commit to my locally stored remote I am ready to commit.
+While doing it manually gives me an opportunity to check it a second time before sharing it with others
+this seems redundant if I have already checked it before committing it locally.  In any event doing it
+manually gives me an additional chance to check the data in the commit, but does seem redundant to me.
