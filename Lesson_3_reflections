@@ -10,3 +10,8 @@ did this I would have to make sure that when I commit to my locally stored remot
 While doing it manually gives me an opportunity to check it a second time before sharing it with others
 this seems redundant if I have already checked it before committing it locally.  In any event doing it
 manually gives me an additional chance to check the data in the commit, but does seem redundant to me.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork is a copy of a Git Hub repository to another Git Hub location like my account on Git Hub.
+Clones are copies of a Git Hub Repository to my PC's hard drive.
+Branches are separate parts of my file with a common parent commit somewhere in the chain of all the branches.
