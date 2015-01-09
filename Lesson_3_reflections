@@ -15,3 +15,15 @@ Describe the differences between forks, clones, and branches. When would you use
 Fork is a copy of a Git Hub repository to another Git Hub location like my account on Git Hub.
 Clones are copies of a Git Hub Repository to my PC's hard drive.
 Branches are separate parts of my file with a common parent commit somewhere in the chain of all the branches.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It is my copy of my changes versus the Git Hub copy may contain someone else's changes.  That means I
+have a version to which to compare the changes someone else may have made to my own and able to do that
+separately from my own master branch.  However, I'm looking at the redundancy of this and wondering why
+it is necessary.  I'm feeling as if this is purposefully being made more complex than necessary and finding
+this very very confusing.  Also already feeling like once I leave this class that the retention of this
+is going to be zero which is concerning.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A 60 second phone conversation, an e-mail, a text, anything would be simpler than this. This seems overly
+redundant and complex.
