@@ -27,3 +27,10 @@ is going to be zero which is concerning.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A 60 second phone conversation, an e-mail, a text, anything would be simpler than this. This seems overly
 redundant and complex.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+If we need agreement between two or more people on a change it makes sense not to up date the base file until everyone agrees
+that the changes make sense.  As a result create a separate branch allows for experimentation.  However, I would also add that
+it adds complexity that sometimes I could see as creating more confusion, rework, and unnecessary complexity than it solves problems.
+Some common sense needs to be applied here to be most productive.  A live conversation or meeting can solve problems or conflicts
+in any project much faster than a multitude of electronic messaging.
